@@ -15,7 +15,7 @@ const Home = () => {
   const [explanationSegment, setExplanationSegment] = useState('');
   const [showExplanation, setShowExplanation] = useState(false);
   
-  const welcomeMsg = "Hi, I'm Seyi.";
+  const welcomeMsg = "Hi, I'm Akintan Seyi.";
   const explanation = "This authentication demo is for showcase purposes only. You can use any email you don’t frequently use and any password you wish. I do not collect, store, or access your personal data. All authentication is securely handled by Supabase to demonstrate real-world API integration and data handling. ";
   const finalWelcome = "Welcome to my portfolio , enjoy exploring!!!";
 
