@@ -237,15 +237,17 @@ const ModernPortfolio = () => {
           </div>
           <div data-aos="fade-left">
             <h3 className="text-4xl font-bold text-white mb-6">Building the Future of Digital Infrastructure</h3>
-            <p className="text-slate-400 leading-relaxed text-lg mb-6">
-              I am <strong>Akintan Seyi</strong>, a Software Engineer, OAU graduate, and the founder of <strong>OurASAP</strong>. With over <strong>7 years of experience</strong>, I’ve moved beyond simple web development to engineering <strong>comprehensive digital ecosystems</strong> that solve complex real-world problems.
-            </p>
-            <p className="text-slate-400 leading-relaxed text-lg mb-6">
-              My journey includes delivering high-impact solutions for global clients on <strong>Fiverr and Upwork</strong>, and contributing to innovative organizations like <strong>NextGenTech</strong> and <strong>Synoption</strong>. I specialize in <strong>JavaScript frameworks, Python, and AI-driven automation</strong>, bridging the gap between complex backend logic and high-performance mobile experiences.
-            </p>
-            <p className="text-slate-400 leading-relaxed text-lg mb-6">
-              I am deeply passionate about <strong>intelligent systems</strong>—integrating Large Language Models (LLMs) to build software that thinks and scales. 
-            </p>
+           <p className="text-slate-400 leading-relaxed text-lg mb-6">
+  I’m <strong>Akintan Seyi</strong>, a Software Engineer and OAU graduate with over <strong>7 years of experience</strong> in software development. I’ve grown beyond building individual websites and applications to creating <strong>complete digital systems</strong> that solve real-world problems.
+</p>
+
+<p className="text-slate-400 leading-relaxed text-lg mb-6">
+  My experience includes delivering software solutions for clients globally through <strong>Fiverr and Upwork</strong>, as well as contributing to organizations such as <strong>Zenith Bank Plc</strong> and <strong>Synoption</strong>. I specialize in <strong>full-stack development, backend systems, mobile applications, and AI-driven automation</strong>, with a focus on building reliable, scalable, and user-focused digital products.
+</p>
+
+<p className="text-slate-400 leading-relaxed text-lg mb-6">
+  I am deeply passionate about building <strong>intelligent and scalable systems</strong> that combine modern software engineering with AI to create practical solutions for real-world challenges.
+</p>
             <div className="flex gap-6 text-2xl">
               <a href="https://www.linkedin.com/in/seyi-dumebi-akintan-17949a234" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="hover:text-indigo-400 cursor-pointer transition-colors" />
