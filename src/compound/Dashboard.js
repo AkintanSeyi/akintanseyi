@@ -6,63 +6,46 @@ import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
 
 // --- DEMO DATA ---
+
 const demoExperience = [
   {
-    company: "OurASAP",
-    job: "Founder & Lead Engineer",
-    date: "October 2025 - Present",
+    company: "Zenith Bank Plc",
+    job: "Backend Developer",
+    date: "2024 - Present",
     location: "Lagos, Nigeria",
     field: [
-      "Architecting a multi-channel commerce ecosystem integrating global sourcing with local logistics.",
-      "Building high-performance mobile and web systems to streamline instant delivery pipelines.",
-      "Leveraging AI and LLMs to automate business operations and enhance user experience."
+      "Building and maintaining backend APIs and services for banking applications and internal systems.",
+      "Handling database operations, authentication, business logic, and integrations between different services.",
+      "Troubleshooting backend issues, fixing bugs, and improving the reliability and performance of existing systems."
     ]
   },
-  {
-    company: "Fiverr / Global Freelancing",
-    job: "Senior Full Stack Consultant",
-    date: "July 2024 - Present",
-    location: "Remote",
-    field: [
-      "Providing expert software solutions for international clients, focusing on complex system migrations.",
-      "Developing bespoke mobile applications and scalable web platforms using Python and JS.",
-      "Maintaining a Top-Rated delivery standard by solving high-level technical challenges for global businesses."
-    ]
-  },
-  {
-    company: "NextGenTech",
-    job: "Senior Software Engineer",
-    date: "Dec 2022 - July 2024",
-    location: "Lagos, Nigeria",
-    field: [
-      "Led the development of scalable enterprise applications and internal automation tools.",
-      "Optimized backend performance and architected responsive React Native mobile interfaces.",
-      "Collaborated on data-driven features to improve system reliability and user retention."
-    ]
-  },
+
   {
     company: "Synoption",
-    job: "Full Stack Developer",
-    date: "Sep 2021 - Dec 2022",
+    job: "Backend Developer",
+    date: "2022 - 2024",
     location: "Remote",
     field: [
-      "Built real-time financial dashboards and secure API infrastructures for data streaming.",
-      "Enhanced frontend performance for multi-currency wallet systems and trading interfaces.",
-      "Implemented security protocols to protect sensitive user financial information."
+      "Built and maintained backend services for financial applications and internal systems.",
+      "Handled API development, database operations, authentication, and data processing.",
+      "Fixed backend issues, added new features, and improved the stability and performance of existing services."
     ]
   },
+
   {
-    company: "Fiverr",
-    job: "Software Developer",
-    date: "May 2020 - Aug 2021",
+    company: "Fiverr / Global Freelancing",
+    job: "Backend Developer",
+    date: "2020 - 2022",
     location: "Remote",
     field: [
-      "Developed and deployed over 50+ MVPs for startups and individuals globally.",
-      "Gained deep expertise in the full software development lifecycle (SDLC) across various industries.",
-      "Focused on rapid delivery and high-quality responsive web design."
+      "Built backend features and APIs for web and mobile applications for clients from different industries.",
+      "Handled databases, authentication, payment integrations, and third-party API connections across different projects.",
+      "Maintained existing applications, fixed backend issues, and added features based on client requirements."
     ]
   }
 ];
+
+
 
 const demoProjects = [
   {
@@ -231,7 +214,7 @@ const ModernPortfolio = () => {
           <h3 className="text-4xl font-bold text-white">Stack & Expertise</h3>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-          {["Next.js" , "Reactjs", "React Native" , "Javascript", "Python", "Fastapi", "NumPy", "Node.js", "Express", "TypeScript", "Django",  "PostgreSQL",  "Tailwind", "Firebase", "Supabase",  "Git", "D3.js",  "MongoDB", "Redux"].map((skill, i) => (
+          {["Next.js" , "Reactjs", "Vuejs" , "Angularjs", ".NET" , "React Native" , "Javascript", "Python", "Fastapi", "NumPy", "Node.js", "Express", "TypeScript", "Django",  "PostgreSQL",  "Tailwind", "Firebase", "Supabase",  "Git", "D3.js",  "MongoDB", "Redux"].map((skill, i) => (
             <div key={skill} data-aos="fade-up" data-aos-delay={i * 50} className="p-6 bg-white/[0.03] border border-white/5 rounded-2xl text-center hover:border-indigo-500/40 transition-all group">
               <p className="text-sm font-semibold group-hover:text-indigo-400 transition-colors">{skill}</p>
             </div>
@@ -255,7 +238,7 @@ const ModernPortfolio = () => {
           <div data-aos="fade-left">
             <h3 className="text-4xl font-bold text-white mb-6">Building the Future of Digital Infrastructure</h3>
             <p className="text-slate-400 leading-relaxed text-lg mb-6">
-              I am <strong>Akintan Seyi</strong>, a Software Engineer, OAU graduate, and the founder of <strong>OurASAP</strong>. With over <strong>5 years of experience</strong>, I’ve moved beyond simple web development to engineering <strong>comprehensive digital ecosystems</strong> that solve complex real-world problems.
+              I am <strong>Akintan Seyi</strong>, a Software Engineer, OAU graduate, and the founder of <strong>OurASAP</strong>. With over <strong>7 years of experience</strong>, I’ve moved beyond simple web development to engineering <strong>comprehensive digital ecosystems</strong> that solve complex real-world problems.
             </p>
             <p className="text-slate-400 leading-relaxed text-lg mb-6">
               My journey includes delivering high-impact solutions for global clients on <strong>Fiverr and Upwork</strong>, and contributing to innovative organizations like <strong>NextGenTech</strong> and <strong>Synoption</strong>. I specialize in <strong>JavaScript frameworks, Python, and AI-driven automation</strong>, bridging the gap between complex backend logic and high-performance mobile experiences.
